@@ -1,0 +1,215 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #FF5722;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.cta-button:hover {
+    background-color: #FF3D00;
+}
+
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+}
+
+
+.testimonials {
+    padding: 40px 20px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-card p:last-child {
+    font-style: italic;
+}
+
+
+.signup {
+    padding: 40px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+.signup form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.signup input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup button:hover {
+    background-color: #FF3D00;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}

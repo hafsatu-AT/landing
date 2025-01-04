@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumin Wears</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <h1>Hafsat wears Logo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+    </header>
+
+    
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Hafsat Wears</h2>
+            <p>Discover how our Clothing can change your looks.</p>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <img src="woman.png" alt="Product Image">
+        </div>
+    </section>
+
+   
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <img src="identity.png" alt="Feature 1">
+                <h3>Fashionable Veils</h3>
+                <p>Unique design of veil that makes us more beautiful and presentable</p>
+            </div>
+            <div class="feature-card">
+                <img src="agbada.png" alt="Feature 2">
+                <h3>Kaftan for Men and Women</h3>
+                <p>Quality and lovely piece of luxruy</p>
+            </div>
+            <div class="feature-card">
+                <img src="women.png" alt="Feature 3">
+                <h3>Abaya</h3>
+                <p>Easy going and demure looks .</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"This Kaftan has changed my looks! Highly recommend."</p>
+                <p>- Peter Carew</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"A fantastic solution to my problems. Worth every penny!"</p>
+                <p>- niru peterson</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Amazing customer support and great value!"</p>
+                <p>- Elizabeth Cole</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="signup" class="signup">
+        <h2>Join Us Today</h2>
+        <p>Sign up for a free trial or subscribe to our newsletter for updates.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Hafsat Wears. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.querySelector('nav ul');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
